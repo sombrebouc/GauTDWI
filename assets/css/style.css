@@ -1,7 +1,19 @@
-.container
+body
 {
-    display: flex;
     width: auto;
     height: auto;
     background-color: #737164;
+}
+header, footer
+{
+    display: inline-flexbox;
+    width: 100%;
+    height: 4em;
+    padding: 0;
+    margin: 0;
+    background-color: #657679;
+}
+m.container
+{
+    display: grid;
 }
