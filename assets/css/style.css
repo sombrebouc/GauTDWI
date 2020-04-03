@@ -1,55 +1,40 @@
 body
 {
+    font-family: Impact;
+
     justify-content: center;
     background-color: #737164;
     background-image: url(../img/background_menu.png);
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat:no-repeat;
-    background-position:left;
+    background-position:center;
     background-size: auto;
-}
-.container
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 25% 100px auto;
-
-
 }
 .header
 {
+    text-shadow: 0 3px 0px rgba(7, 115, 179, 0.582);
     text-align: center;
     font-size: 2em;
-    font-family: Impact;
-    color: rgb(218, 207, 187);
-    background-color: rgba(75, 60, 49, 0.548);
+    padding-bottom: 5px;
+    color: rgb(223, 220, 215);
+    background-color: rgba(0, 115, 168, 0.623);
     
 }
-.title-prof
+.bouton
 {
-    display: flexbox;
-    align-items: center;
-    height: 2em;
+
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    
+    height: auto;
     width: 150px;
+    color: rgb(223, 220, 215);
+    background-color: darkolivegreen;
 }
-.title-comp
+.menu-boutons
 {
-    display: flexbox;
-    align-items: center;
-    height: 2em;
-    width: 150px;
-}
-.title-xps
-{
-    display: flexbox;
-    align-items: center;
-    height: 2em;
-    width: 150px;
-}
-.title-hobb
-{
-    display: flexbox;
-    align-items: center;
-    height: 2em;
-    width: 150px;
+    display: block;
+    margin: auto;
+
 }
