@@ -6,7 +6,7 @@ html
 
 .body-bg
 {
-    font-family: motherland;
+    font-family: 'motherland';
     background-color: rgb(75, 72, 70);
 }
 .BDP,
@@ -14,8 +14,11 @@ html
 {
     display: flexbox;
     margin: 1em;
-    font-family: 'cookie';
-    font-size: 2em;
+    font-family: 'consolas';
+    inter
+    text-shadow: 2px 2px 3px #212121,
+    -1px -1px 3px #212121;
+    font-size: 1.5em;
     text-align: center;
     font-style: italic;
     color: #ffc107;
@@ -45,4 +48,17 @@ html
     outline-color: #ffc107;
     outline-offset: -0.10em;
     box-shadow: none;
+}
+h4
+{
+    color: rgb(255, 255, 255);
+    background-color: #212121;
+    padding-top: 0.15em;
+    padding-bottom: 0.17em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.35em;
+    outline-style: dotted;
+    outline-color: #ffc107;
+    outline-offset: -0.10em;
 }
