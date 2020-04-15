@@ -1,11 +1,48 @@
 html
 {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
 }
 
 .body-bg
 {
     font-family: motherland;
     background-color: rgb(75, 72, 70);
+}
+.BDP,
+#descriptions
+{
+    display: flexbox;
+    margin: 1em;
+    font-family: 'cookie';
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+    color: #ffc107;
+
+}
+.modal-body
+{
+    background-image: url(../img/svg/Logo_Bg_0001.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: rgb(75, 72, 70);
+}
+.modal-header, .modal-footer
+{
+       background-color: #ffc107;
+}
+.btn
+{
+    font-size: 1em;
+    padding-top: 0.15em;
+    padding-bottom: 0.17em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.35em;
+    outline-style: dotted;
+    outline-color: #ffc107;
+    outline-offset: -0.10em;
+    box-shadow: none;
 }
