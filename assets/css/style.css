@@ -1,0 +1,11 @@
+html
+{
+    width: auto;
+    height: 100%;
+}
+
+.body-bg
+{
+    font-family: motherland;
+    background-color: rgb(75, 72, 70);
+}
