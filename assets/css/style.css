@@ -2,6 +2,8 @@ html
 {
     width: auto;
     height: 100%;
+    z-index: 2;
+    background-image: url(assets/img/svg/bkgd_nda.svg);
     background-color: rgb(75, 72, 70);
 }
 header
@@ -35,13 +37,6 @@ body
 {
     font-family: 'motherland';
     background-color: rgb(27, 27, 26);
-}
-main img
-{
-    z-index: 2;
-    opacity: 0.1;
-    background-image: url(assets/img/svg/bkgd_nda.svg);
-    
 }
 .BDP,
 #descriptions
