@@ -28,7 +28,7 @@ header
     position: absolute;
     padding-left: 0.5em;
 }
-main
+#main
 {
     z-index: 1;
     background-repeat: no-repeat;
