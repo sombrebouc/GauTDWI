@@ -7,15 +7,11 @@ html
 header
 {
     height: 35vw;
-    border: 0;
-    margin: 0;
-    padding: 0;
     width: 100%;
 }
 .bannerTitle
 {
-    width: 100%;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #272727;
     text-shadow: 1px 4px 0 beige;
     position: absolute;
@@ -24,22 +20,16 @@ header
 .bannerSubTitle
 {
     width: 100%;
-    z-index: 2;
     font-size: 7em;
     opacity: 0.5;
     color: whitesmoke;
     position: absolute;
     padding-left: 0.5em;
 }
-#headerBanner
+main
 {
     z-index: 1;
-    background-image: url(../img/svg/Logo_Bg_0001.svg);
-    opacity: 0.3;
-    background-repeat: no-repeat;
-    background-position-x: 55vw;
-    background-position-y: -7.5vw;
-    background-size: 75%;
+    background-image: url(assets/img/svg/Logo_Bg_0001.svg);
 }
 body
 {
@@ -48,18 +38,18 @@ body
 }
 main img
 {
-    z-index: 4;
-    opacity: 0.05;
+    z-index: 2;
+    opacity: 0.1;
+    background-image: url(assets/img/svg/bkgd_nda.svg);
     
 }
 .BDP,
 #descriptions
 {
-    z-index: 1;
+    z-index: 3;
     margin: 1em;
     font-family: 'consolas';
-    inter
-    text-shadow: 2px 2px 3px #212121,
+    text-shadow: 2px 2px 0px #212121,
     -1px -1px 3px #212121;
     font-size: 1.5em;
     text-align: center;
