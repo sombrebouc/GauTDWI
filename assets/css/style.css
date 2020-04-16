@@ -3,7 +3,7 @@ html
     width: auto;
     height: 100%;
     z-index: 2;
-    background-image: url(assets/img/svg/bkgd_nda.svg);
+    background-image: url(../img/svg/bkgd_nda.svg);
     background-color: rgb(75, 72, 70);
 }
 header
@@ -31,7 +31,7 @@ header
 main
 {
     z-index: 1;
-    background-image: url(assets/img/svg/Logo_Bg_0001.svg);
+    background-image: url(../img/svg/Logo_Bg_0001.svg);
 }
 body
 {
