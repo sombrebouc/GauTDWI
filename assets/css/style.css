@@ -4,6 +4,9 @@ html
     height: 100%;
     z-index: 2;
     background-image: url(../img/svg/Logo_Bg_0001.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: rgb(75, 72, 70);
 }
 header
@@ -33,7 +36,6 @@ header
     z-index: 1;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     background-image: url(../img/svg/bkgd_nda.svg);
 }
 body
