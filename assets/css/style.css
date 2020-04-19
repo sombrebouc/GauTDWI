@@ -19,39 +19,48 @@ main
 }
 
 /* ========================== nav barre */
-
+.navbar
+{
+    display: block;
+    justify-content: center;
+    padding-top: 2.5vh;
+    padding-left: 2.5vh;
+    padding-right: 0;
+    padding-bottom: 2.5vh;
+}
 .navbar-nav {
-    width: 100%;
+    width: auto;
     margin-top: 3em;
     padding: 0;
     display: contents;
 }
 .nav-item a
 {
-    background-color: #212121;
+    font-size: 2vh;
+    margin: 0;
+    padding: 0;
+    background-color: #21212100;
     color: #ffc107;
 }
 .nav-item li {
-    width: auto;
-    background-color: #212121;
+    background-color: #21212100;
 }
 
 .bannerTitle
 {
-    font-size: 2.5em;
+    width: 100%;
+    padding-right: 10%;
+    font-size: 3.5vh;
     color: #272727;
     text-shadow: 1px 4px 0 beige;
-    position: absolute;
-    padding-left: 0.5em;
 }
 .bannerSubTitle
 {
     width: 100%;
-    font-size: 7em;
+    padding-right: 10%;
+    font-size: 12vh;
     opacity: 0.5;
     color: whitesmoke;
-    position: absolute;
-    padding-left: 0.5em;
 }
 
 #main
@@ -68,10 +77,20 @@ body
     font-family: 'motherland';
     background-color: #212121;
 }
-.prez,
+#prez
+{
+    margin: 1em;
+    font-family: 'consolas';
+    text-shadow: 2px 2px 0px #212121,
+    -1px -1px 3px #212121;
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+    color: #ffc107;
+}
+
 #descriptions
 {
-    z-index: 3;
     margin: 1em;
     font-family: 'consolas';
     text-shadow: 2px 2px 0px #212121,
